@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+<link rel="stylesheet" href="../styles/main.css">
+<link rel="stylesheet" href="../styles/reg-style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+          <a href="../index.html"><img src="../images/logo2.png" alt=""></a>
+      </div>
+      <nav>
+        <ul>
+          <a href="../index.html"><li>Home</li></a>
+          <a href="about_us.html"><li>About Us</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+          <a href="#"><li>Sign Up</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+      <div class="main-container-padding">
+        <form name="signup" class="" action="index.html">
+          <h1>SIGN UP</h1>
+          <div class="every-input">
+            <input type="text" name="name" value="" placeholder="Your Name...">
+              <div id="short-username" class="notification">
+                <p>Username too short</p>
+              </div>
+              <div id="long-username" class="notification">
+                <p>Username too long</p>
+              </div>
+          </div>
+          <div class="every-input">
+            <input type="email" name="email" value="" placeholder="Your E-mail...">
+            <div id="invalid-email" class="notification">
+              <p>Invalid e-mail address</p>
+            </div>
+          </div>
+          <div class="every-input">
+            <input type="password" name="pass1" value="" placeholder="Password">
+            <div id="pass-length" class="notification">
+              <p>Password must contain at least 8 characters</p>
+            </div>
+          </div>
+          <div class="every-input">
+            <input type="password" name="pass2" value="" placeholder="Confirm Password">
+            <div id="pass-confirm" class="notification">
+              <p>Wrong password</p>
+            </div>
+          </div>
+
+          <div class="login-buttons">
+            <input type="reset" name="" value="Reset">
+            <input type="button" name="" value="Confirm" onclick="confirmation()">
+          </div>
+
+        </form>
+      </div>
+
+
+
+    </main>
+
+  </body>
+  <footer>
+    <div class="contact-icons">
+      <img src="../images/facebookLogo.png" alt="">
+      <img src="../images/instagramLogo.png" alt="">
+      <img src="../images/twitterLogo.png" alt="">
+    </div>
+
+  </footer>
+</html>
